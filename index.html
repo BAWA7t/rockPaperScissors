@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissors</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script> 
 </head>
 <body>
-    <h1>Hello World</h1>
-    <script src="javascript.js"></script>
+    <div class="score">
+        <h1 class="tiers">Tiers: 0</h1>
+    </div>
+    <div class="winnerdiv">
+        <h1 class="winner"></h1>
+        <button class="reset">Play Again</button>
+    </div>
+    <div class="playersection">
+        <h3 class="playerChoice">0</h3>
+        <h3 class="playerScore">Score: 0</h3>
+        <div class="playerimgs">
+            <img src="./Images/realrock.png" alt="rock" class="pimg" id="rock">
+            <img src="./Images/realpaper.png" alt="paper" class="pimg" id="scissors">
+            <img src="./Images/download.jpeg" alt="scissors" class="pimg" id="paper">
+        </div>
+    </div>
+    <div class="computersection">
+        <h3 class="computerChoice">0</h3>
+        <h3 class="computerScore">Score: 0</h3>
+        <div class="computerimgs">
+            <img src="./Images/realrock.png" alt="rock" class="rock">
+            <img src="./Images/realpaper.png" alt="paper" class="paper">
+            <img src="./Images/download.jpeg" alt="scissors" class="scissors">
+        </div>
+    </div>
+
 </body>
 </html>
